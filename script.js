@@ -64,6 +64,8 @@ function getKural(kuralNum) {
 
 // Error alert
     .catch(err => {
-        alert('1330 குறல்களே உள்ளன/Only 1330 Kurals are there')
+        alert(`1330 குறல்களே உள்ளன/Only 1330 Kurals are there.
+                1 முதல் 1330 வரை உள்ள எண்களை தட்டச்சு செய்யவும்.. 
+                Please enter 1 to 1330 numbers.. `)
     })
 }
